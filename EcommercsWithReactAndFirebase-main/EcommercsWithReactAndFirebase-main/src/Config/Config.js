@@ -5,7 +5,7 @@ import 'firebase/firestore';
 import 'firebase/auth'
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBSUhkxuhWkvp_qxORB9n9N9jvN_BjL63c",
+  apiKey: "",
   authDomain: "dummydb-80829.firebaseapp.com",
   projectId: "dummydb-80829",
   storageBucket: "dummydb-80829.appspot.com",
