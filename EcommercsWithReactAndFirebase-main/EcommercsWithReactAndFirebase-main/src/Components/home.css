@@ -1,0 +1,19 @@
+.home-background {
+    background-image: url('../images/bg\ \(2\).jpg');
+    background-size: cover; /* Adjust background properties as needed */
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* Other background styles */
+}
+
+.most-liked-art-container {
+    /* Background properties */
+    background-image: url('../images/bg (2).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* Other background styles */
+
+    /* Define the height of the container */
+    height: 100vh; /* Adjust the height as needed */
+}

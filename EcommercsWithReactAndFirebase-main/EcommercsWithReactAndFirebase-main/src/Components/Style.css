@@ -1,0 +1,92 @@
+/* Import the Galagin font */
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+
+/* Style the product details container */
+.product-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 22px;
+  margin: 20px auto 0;
+  max-width: 800px;
+  padding: 20px;
+  border: 2px solid #5cb85c; /* Light green border */
+  border-radius: 10px;
+  background-color: #f0f8ff; /* Light blue background */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+  transition: transform 0.3s ease-in-out; /* Smooth scale transition */
+  font-family: 'Galada', cursive; /* Use Galagin font */
+}
+
+/* Style the product image */
+.product-img-details {
+  max-width: 300px; /* Increase image size */
+  height: auto;
+  font-size: 22px;
+  border-radius: 10px; /* Rounded corners for image */
+  transition: transform 0.3s ease-in-out; /* Smooth image scale transition */
+}
+
+/* Add animation to product image */
+.product-img-details:hover {
+  animation: scaleImage 0.3s ease-in-out;
+}
+
+@keyframes scaleImage {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1); /* Scale up image on hover */
+  }
+}
+
+/* Style the product info section */
+.product-info {
+  margin-top: 20px;
+}
+
+/* Style product details text with wipe-out transition */
+.product-info p {
+  margin: 10px 0; /* Increase vertical spacing */
+  font-size: 22px; /* Increase font size */
+  color: #333; /* Dark text color */
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; /* Smooth color and wipe-out transition */
+}
+
+/* Style the artist link */
+.product-info a {
+  color: #5cb85c; /* Light green link color */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+  transition: color 0.3s ease-in-out; /* Smooth color transition */
+}
+
+.product-info a:hover {
+  color: #1e8449; /* Darker green on hover */
+  text-decoration: underline;
+}
+
+/* Add hover effect to product container */
+.product-details-container:hover {
+  transform: scale(1.02); /* Slightly scale up on hover */
+}
+
+/* Style the button */
+.green-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #5cb85c; /* Same green color */
+  color: rgb(7, 7, 7); /* Text color */
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.green-button:hover {
+  background-color: #1e8449; /* Darker green on hover */
+}

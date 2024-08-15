@@ -1,0 +1,7 @@
+.products-container {
+    background-image: url('../images/bg (2).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* Other background styles */
+}

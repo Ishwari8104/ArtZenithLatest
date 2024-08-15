@@ -1,0 +1,98 @@
+/* Signup.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Fabrica&display=swap');
+
+.container {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    background-color: #c6dfc4; /* Light gray background */
+    border-radius: 20px;
+    box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.2);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.signup-heading {
+    text-align: center;
+    color:#246422; /* Green color */
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px; /* Larger font size for heading */
+    transition: color 0.3s ease-in-out; /* Add transition effect for color change */
+}
+
+.signup-heading:hover {
+    color:#3b8b38; /* Orange color on hover */
+}
+
+.auth-label {
+    font-size: 18px; /* Larger font size for labels */
+    color: rgb(8, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+@keyframes wipeOut {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+}
+
+.auth-input {
+    width: 100%;
+    padding: 12px; /* Increased padding for inputs */
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px; /* Larger font size for inputs */
+    background-color: rgb(255, 255, 255); /* Light gray background for textboxes */
+    transition: background-color 0.3s ease-in-out; /* Add transition effect for background color change */
+}
+
+.auth-input:focus {
+    background-color: #ddd; /* White background when focused */
+}
+
+.auth-button {
+    background-color:#246422; /* Bright orange color */
+    color: #ddd;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px; /* Increased padding for buttons */
+    font-size: 18px; /* Larger font size for buttons */
+    cursor: pointer;
+    margin-top: 20px; /* Increased margin-top for button */
+    transition: background-color 0.3s ease-in-out; /* Add transition effect for background color change */
+}
+
+.auth-button:hover {
+    background-color: #7a8379; /* Darker orange color on hover */
+}
+
+.error-msg {
+    color: red;
+    font-size: 16px; /* Larger font size for error messages */
+    font-weight: bold;
+    margin-top: 10px; /* Increased margin-top for error messages */
+}
+
+.auth-link {
+    text-align: center;
+    font-size: 16px; /* Larger font size for links */
+    margin-top: 20px;
+}
+
+.auth-link a {
+    color: #246422; /* Bright orange color for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.auth-link a:hover {
+    color: #246422; /* Bright orange color for links */
+    text-decoration: none;
+    font-weight: bold;
+}

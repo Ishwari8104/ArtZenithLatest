@@ -1,0 +1,32 @@
+/* styles.css */
+
+/* Style the product details container */
+.product-details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px auto 0;
+    
+    max-width: 800px; /* Adjust the maximum width as needed */
+    padding: 20px;
+    border: 1px solid #ddd; /* Add a border for a box-like appearance */
+    border-radius: 5px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
+  }
+  
+  /* Style the product image */
+  .product-img-details {
+    max-width: 200px; /* Adjust the maximum width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Style the product info section */
+  .product-info {
+    margin-top: 20px;
+  }
+  
+  .product-info p {
+    margin: 5px 0;
+  }
+  
